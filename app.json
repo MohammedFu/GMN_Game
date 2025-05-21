@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "GMN_Game",
+    "slug": "GMN_Game",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon/gmn_icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon/gmn_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.lmw.GMN_Game"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "083af6bb-503b-46de-9eb6-5581dd31afb6"
+      }
+    },
+    "owner": "lmw"
+  }
+}
